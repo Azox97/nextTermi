@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    #padre{
+        @apply container mx-auto
+    }
+    #dosenuno{
+        @apply grid grid-cols-2 gap-4;
+    }
+    #hijo1{
+        @apply bg-gray-100 grid grid-cols-1 gap-6 text-center;
+    }
+    #hijo2{
+        @apply p-4 shadow-md rounded-md text-left text-center;
+    }
+    h1 {
+        @apply text-7xl text-center;
+    }
+    #hijo3{
+        @apply text-center shadow-md rounded-md bg-gray-100 items-center m-8 justify-center;
+    }
+    
+    
+}
